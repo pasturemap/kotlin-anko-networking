@@ -7,10 +7,10 @@ import android.widget.ImageView
 import com.lightningkite.kotlin.Disposable
 import com.lightningkite.kotlin.anko.isAttachedToWindowCompat
 import com.lightningkite.kotlin.async.doAsync
-import com.lightningkite.kotlin.networking.NetMethod
-import com.lightningkite.kotlin.networking.NetRequest
-import com.lightningkite.kotlin.networking.NetStream
 import com.lightningkite.kotlin.networking.Networking
+import com.lightningkite.kotlin.networking.core.NetMethod
+import com.lightningkite.kotlin.networking.core.NetRequest
+import com.lightningkite.kotlin.networking.core.NetStream
 import org.jetbrains.anko.imageBitmap
 import org.jetbrains.anko.imageResource
 import java.util.*

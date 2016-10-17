@@ -1,9 +1,9 @@
 package com.lightningkite.kotlin.anko.networking
 
 import android.content.Context
-import com.lightningkite.kotlin.networking.NetRequest
-import com.lightningkite.kotlin.networking.NetStack
-import com.lightningkite.kotlin.networking.NetStream
+import com.lightningkite.kotlin.networking.core.NetRequest
+import com.lightningkite.kotlin.networking.core.NetStack
+import com.lightningkite.kotlin.networking.core.NetStream
 import com.lightningkite.kotlin.stream.toByteArray
 import java.io.File
 import java.io.IOException
