@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 27
-    buildToolsVersion '27.0.2'
+    buildToolsVersion '27.0.3'
 
     defaultConfig {
         minSdkVersion 16
@@ -49,7 +49,7 @@ dependencies {
 }
 
 buildscript {
-    ext.kotlin_version = '1.2.10'
+    ext.kotlin_version = '1.2.30'
     repositories {
         mavenCentral()
     }
